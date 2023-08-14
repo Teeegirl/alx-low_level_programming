@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
-  * main: Print out file name of source code
-  *
-  * Return: int
-  */
+ * main - prints the name of the file
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("%s\n", __FILE__);
